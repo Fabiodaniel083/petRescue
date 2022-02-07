@@ -1,0 +1,66 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.barra-sup {
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    margin-bottom: 15px;
+   
+}
+
+.seccion-izq {
+    height: 600px;
+    width: 20%;
+    background-color: aqua;
+    display: inline-block;
+    position: sticky;
+}
+
+.nav-principal {
+    width: 100%;
+    height: 300px;
+    background-color:burlywood;
+    
+}
+
+.nav-principal ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav-principal ul li {
+    display: block;
+   
+}
+
+.nav-principal ul li a {
+    text-decoration: none;
+    
+}
+
+.nav-principal ul li ul li {
+    display: none;
+}
+
+.contenido{
+    padding-left: -15px;   
+    height: 600px;
+    width: 80%;
+    background-color: blueviolet;
+    display: flex;
+    float: right;
+
+}
+
+.footer {
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    background-color:brown;
+}
