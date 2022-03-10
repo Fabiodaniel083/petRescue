@@ -1,0 +1,58 @@
+/*variables del menu*/
+
+/*variables del menu*/
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.seccion-izq {
+    height: 600px;
+    width: 20%;
+    background-color: aqua;
+    display: inline-block;
+    
+
+   
+}
+
+
+.contenido {
+    height: 600px;
+    width: 80%;
+    background-color:blueviolet; 
+    float: right;
+    
+}
+/*inicio del menu*/
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    background-color: brown;
+    margin: 7px;
+    display: block;
+    width: 80%;
+}
+
+nav ul li a {
+text-decoration: none;
+padding: 10px;
+color: white;
+}
+
+nav ul li:hover a {
+    color: black;
+}
+nav ul li ul {
+    display: none;
+}
+nav ul li:hover ul {
+    display: block;
+}
+/*fin  del menu*/
+
